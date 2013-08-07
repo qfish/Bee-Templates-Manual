@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui namespace="Template_Board_iPhone">
+    <linear orientation="h" class="wrapper">
+    <!-- <linear orientation="v" class="wrapper"> -->
+        <view class="view blue"></view>
+        <view class="view orange"></view>
+    </linear>
+    <style type="text/css">
+        .wrapper {
+            width: 100%;
+            height: 100%;
+        }
+        .view {
+            width: 50%;
+            height: 100px;
+        }
+        .blue {
+            background-color:#007DBC
+        }
+        .orange {
+            background-color:#FF5E22
+        }
+    </style>
+</ui>

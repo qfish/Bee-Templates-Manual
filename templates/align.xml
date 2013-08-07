@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui namespace="TemplateBoard_iPhone">
+    <linear orientation="v" class="wrapper">
+        <linear orientation="h" class="h-wrapper val"> 
+            <image class="bg gray"/>
+            <view class="view blue"></view>
+            <view class="view orange"></view>
+            <view class="view green"></view>
+        </linear>
+        <linear orientation="h" class="h-wrapper vac">
+            <image class="bg gray"/>
+            <view class="view blue"></view>
+            <view class="view orange"></view>
+            <view class="view green"></view>
+        </linear>
+        <linear orientation="h" class="h-wrapper var">
+            <image class="bg gray"/>
+            <view class="view blue"></view>
+            <view class="view orange"></view>
+            <view class="view green"></view>
+        </linear>
+        <linear orientation="v" class="v-wrapper al">
+            <image class="bg gray"/>
+            <view class="view blue"></view>
+            <view class="view orange"></view>
+            <view class="view green"></view>
+        </linear>
+        <linear orientation="v" class="v-wrapper ac">
+            <image class="bg gray"/>
+            <view class="view blue"></view>
+            <view class="view orange"></view>
+            <view class="view green"></view>
+        </linear>
+        <linear orientation="v" class="v-wrapper ar">
+            <image class="bg gray"/>
+            <view class="view blue"></view>
+            <view class="view orange"></view>
+            <view class="view green"></view>
+        </linear>
+    </linear>
+    <style type="text/css">
+
+        .al { align:left; }
+        .ac { align:center; }
+        .ar { align:right; }
+
+        .val { v-align:top; }
+        .vac { v-align:center; }
+        .var { v-align:bottom; }
+
+        .view { width: 20px; height: 20px; }
+        .wrapper { width: 100%; height: 100%; }
+        .h-wrapper { width: 320px; height: 60px; margin-top: 5px; }
+        .v-wrapper { width: 320px; height: 60px; margin-top: 5px; }
+
+        .bg { position: absolute; top:0;left:0; width: 100%; height: 100%; }
+
+        .red { background-color:#DD1144 }
+        .blue { background-color:#007DBC }
+        .gray { background-color: #AEAEAE }
+        .green { background-color:#008888 }
+        .orange { background-color:#FF5E22 }
+    </style>
+</ui>

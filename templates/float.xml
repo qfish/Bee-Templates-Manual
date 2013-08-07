@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui namespace="TemplateBoard_iPhone">
+    <linear orientation="v" class="wrapper">
+    
+        <linear orientation="h" class="h-wrapper">
+            <image class="bg gray"/>
+            <view class="view blue fl"></view>
+            <view class="view orange fc"></view>
+            <view class="view green fr"></view>
+        </linear>
+    
+        <linear orientation="h" class="h-wrapper">
+            <image class="bg gray"/>
+            <view class="view blue vfl"></view>
+            <view class="view orange vfc"></view>
+            <view class="view green vfr"></view>
+        </linear>
+        
+        <linear orientation="v" class="v-wrapper">
+            <image class="bg gray"/>
+            <view class="view blue fl"></view>
+            <view class="view orange fc"></view>
+            <view class="view green fr"></view>
+        </linear>
+        
+        <linear orientation="v" class="v-wrapper">
+            <image class="bg gray"/>
+            <view class="view blue vfl"></view>
+            <view class="view orange vfc"></view>
+            <view class="view green vfr"></view>
+        </linear>
+        
+    
+    </linear>
+    
+    <style type="text/css">
+    
+        .fl { float:left; }
+        .fc { float:center; }
+        .fr { float:right; }
+        
+        .vfl { v-float:top; }
+        .vfc { v-float:center; }
+        .vfr { v-float:bottom; }
+
+        .h-wrapper { width: 320px; height: 120px; margin-top: 5px; }
+        
+        .v-wrapper { width: 320px; height: 120px; margin-top: 5px; }
+        
+        .view { width: 30px; height: 30px; }
+        
+        .bg {
+            position: absolute;
+            top:0;
+            left:0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .bg2 {
+            position: absolute;
+            top:0;
+            left:0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .wrapper { width: 100%; height: 100%; }
+        
+        .red {
+            background-color:#D14
+        }
+        .green {
+            background-color:#088
+        }
+        .blue {
+            background-color:#007DBC
+        }
+        .orange {
+            background-color:#FF5E22
+        }
+        .gray {
+            background-color: #aeaeae;
+        }
+    </style>
+</ui>
